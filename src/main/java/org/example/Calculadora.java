@@ -41,6 +41,12 @@ public class Calculadora {
         }
     }
 
+    /**
+     * Modifico la potencia
+     * @param base
+     * @param exponente
+     * @return
+     */
     public double potencia(double base, double exponente){
         return Math.pow(base, exponente);
     }
